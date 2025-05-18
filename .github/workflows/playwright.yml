@@ -21,7 +21,7 @@ jobs:
       name: playwright_env
     env:
       EMAIL: ${{ secrets.EMAIL }}
-      APP_PASS: ${{ secrets.APP_PASS }}
+      PASSWORD: ${{ secrets.PASSWORD }}
     timeout-minutes: 60
     runs-on: ubuntu-latest
     steps:
