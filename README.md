@@ -15,7 +15,7 @@ Test scenarios implemented:
    - Verify the course appears in the cart
    - Test the remove from cart functionality
 
-
+----
 
 
 1. Clone the repo
@@ -23,5 +23,6 @@ Test scenarios implemented:
 3. npm install to install dependencies
 4. npx playwright test to run the tests
 
+Shopping cart scenario is impossible due to platfrom settings
 
 Original task could be found here https://gist.github.com/olkeene/34d7922f2ee5a8a150a905d06dda7555#file-home_assessment-md

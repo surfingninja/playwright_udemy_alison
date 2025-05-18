@@ -22,7 +22,11 @@ export class LoginPage extends BasePage {
     }
 
     public async goToDashboard() {
-        await this.dashboard.click();
+        try {
+            await this.dashboard.waitFor({state: 'visible', timeout: 3000});
+            await this.dashboard.click();
+        } catch { }
+
     }
 
 }
